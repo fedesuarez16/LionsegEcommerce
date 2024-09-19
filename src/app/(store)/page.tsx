@@ -8,6 +8,7 @@ import AccessoriesImage from "@/images/accessories.png";
 import ApparelImage from "@/images/electrodomesticos.png";
 import { YnsLink } from "@/ui/YnsLink";
 import { publicUrl } from "@/env.mjs";
+import Envios from "@/app/(store)/Envios";
 
 export const metadata = {
 	alternates: { canonical: publicUrl },
@@ -50,13 +51,16 @@ export default async function Home() {
 					/>
 				</div>
 			</section>
+
+			<Envios />
+
 			<ProductList products={products} />
 
 			<section className="w-full py-8">
 				<div className="grid gap-8 lg:grid-cols-2">
 					{[
-						{ categorySlug: "accesorios", src: AccessoriesImage },
-						{ categorySlug: "electrodomesticos", src: ApparelImage },
+						{ categorySlug: "Camaras de seguridad", src: AccessoriesImage },
+						{ categorySlug: "Kits de alarmas", src: ApparelImage },
 					].map(({ categorySlug, src }) => (
 						<CategoryBox key={categorySlug} categorySlug={categorySlug} src={src} />
 					))}

@@ -20,11 +20,11 @@ export default async function Home() {
 	return (
 		<main>
 			<section className="rounded bg-neutral-100 py-8 sm:py-12">
-				<div className="mx-auto grid grid-cols-1 items-center justify-items-center gap-8 px-8 sm:px-16 md:grid-cols-2">
+				<div className="mx-auto grid grid-cols-1 items-center justify-items-center gap-4 px-8 sm:px-16 md:grid-cols-2">
 					<div className="max-w-md space-y-4">
 						<h2 className="text-balance text-3xl font-bold tracking-tight md:text-4xl">
-							Precios Imbatibles en Cámaras de Seguridad y Alarmas Inteligentes{" "}
-							<p className="text-indigo-400">Somos Lionseg</p>
+							Aprovecha todos nuestros productos con descuento{" "}
+							<p className="text-indigo-400">En nuestra Tienda</p>
 						</h2>
 						<p className="text-pretty text-neutral-600">
 							Explora nuestra seleccion de productos y encontra lo que estas buscando{" "}

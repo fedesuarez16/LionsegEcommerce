@@ -23,8 +23,8 @@ export default async function Home() {
 				<div className="mx-auto grid grid-cols-1 items-center justify-items-center gap-8 px-8 sm:px-16 md:grid-cols-2">
 					<div className="max-w-md space-y-4">
 						<h2 className="text-balance text-3xl font-bold tracking-tight md:text-4xl">
-							Descubri la coleccion de productos de{" "}
-							<p className="text-indigo-400">Tiendacompleta</p>
+							Precios Imbatibles en Cámaras de Seguridad y Alarmas Inteligentes{" "}
+							<p className="text-indigo-400">Somos Lionseg</p>
 						</h2>
 						<p className="text-pretty text-neutral-600">
 							Explora nuestra seleccion de productos y encontra lo que estas buscando{" "}
